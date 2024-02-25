@@ -50,11 +50,7 @@ const WriteReadMe = async () => {
   }; //Coding is killing me.
   
 \`\`\`
-  
-  <h2 align="center">💬 Contact Me 💬</h2>
-  
-  [![Discord Presence](https://lanyard.cnrad.dev/api/640512148786642947)](https://discord.com/users/640512148786642947)
-  
+
   <h2 align="center">🚀 My Stats 🚀</h2>
   <p align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pepe-tf&theme=tokyonight" />

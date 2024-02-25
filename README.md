@@ -17,11 +17,7 @@
   }; //Coding is killing me.
   
 ```
-  
-  <h2 align="center">💬 Contact Me 💬</h2>
-  
-  [![Discord Presence](https://lanyard.cnrad.dev/api/640512148786642947)](https://discord.com/users/640512148786642947)
-  
+
   <h2 align="center">🚀 My Stats 🚀</h2>
   <p align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pepe-tf&theme=tokyonight" />
@@ -42,5 +38,5 @@
       </p>
   </details>
   
-  <!-- Last updated on Sun Feb 25 2024 01:27:25 GMT+0100 (Central European Standard Time) ;-;-->
+  <!-- Last updated on Sun Feb 25 2024 01:38:32 GMT+0100 (Central European Standard Time) ;-;-->
   <i>Last updated on 25th February 2024 using magic</i> ✨ 
