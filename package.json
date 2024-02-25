@@ -1,0 +1,15 @@
+{
+  "name": "Pepe-tf",
+  "version": "1.0.0",
+  "description": "About me by myself",
+  "main": "src/update.js",
+  "repository": "https://github.com/Pepe-tf/Pepe-tf",
+  "author": "Bill_Hub <mr.bi11.hub@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.5",
+    "path": "^0.12.7"
+  }
+}
