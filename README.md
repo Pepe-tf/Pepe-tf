@@ -9,13 +9,12 @@
     UserName: "Bill_Hub" || "Pepe_tf",
     Age: null,
     Height: null,
-    Country: "Sweden",
+    Region: ["SW", "TH", "US", "JP"],
     Tools: {
       VsCode: true,
       NotePad: true
     }
   }; //Coding is killing me.
-  
 ```
 
   <h2 align="center">🚀 My Stats 🚀</h2>
@@ -38,5 +37,5 @@
       </p>
   </details>
   
-  <!-- Last updated on Sun Feb 25 2024 01:39:25 GMT+0100 (Central European Standard Time) ;-;-->
+  <!-- Last updated on Sun Feb 25 2024 01:42:54 GMT+0100 (Central European Standard Time) ;-;-->
   <i>Last updated on 25th February 2024 using magic</i> ✨ 

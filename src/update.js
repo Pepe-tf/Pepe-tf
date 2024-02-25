@@ -42,13 +42,12 @@ const WriteReadMe = async () => {
     UserName: "Bill_Hub" || "Pepe_tf",
     Age: null,
     Height: null,
-    Country: "Sweden",
+    Region: ["SW", "TH", "US", "JP"],
     Tools: {
       VsCode: true,
       NotePad: true
     }
   }; //Coding is killing me.
-  
 \`\`\`
 
   <h2 align="center">🚀 My Stats 🚀</h2>
