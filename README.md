@@ -1,4 +1,4 @@
-## Hi there 👋 <img align="right" style="border: 2px solid red; border-radius: 50px;" src="https://cdn.discordapp.com/avatars/640512148786642947/bc5d72c0543cc2dd0a5b2ec1c869d285.png" width="180" />
+## Hi there 👋
   I'm **Pepe-tf** aka **Bill_Hub**, An developer from somewhere in the earth. I like to code web applications and games. I have worked on many projects in my past. Thanks for visiting my github profile. Have a great day ahead!~
   
   <h2 align="center">✨ About Me ✨</h2>
