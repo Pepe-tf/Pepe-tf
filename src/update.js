@@ -31,7 +31,7 @@ const WriteReadMe = async () => {
     let UserData = await fetch("https://api.github.com/users/Pepe-tf").then((res) => res.json());
 
     //Creating the text what we gonna save on ReadMe file
-    const text = `## Hi there 👋 <img align="right" style="border: 2px solid red; border-radius: 50px;" src="https://cdn.discordapp.com/avatars/640512148786642947/bc5d72c0543cc2dd0a5b2ec1c869d285.png" width="180" />
+    const text = `## Hi there 👋 <img align="right" style="border: 2px solid red; border-radius: 50px;" src="https://avatars.githubusercontent.com/u/158031629" width="180" />
   I'm **Pepe-tf** aka **Bill_Hub**, An developer from somewhere in the earth. I like to code web applications and games. I have worked on many projects in my past. Thanks for visiting my github profile. Have a great day ahead!~
   
   <h2 align="center">✨ About Me ✨</h2>
