@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 <img align="right" style="border: 2px solid red; border-radius: 50px;" src="https://cdn.discordapp.com/avatars/640512148786642947/bc5d72c0543cc2dd0a5b2ec1c869d285.png" width="180" />
   I'm **Pepe-tf** aka **Bill_Hub**, An developer from somewhere in the earth. I like to code web applications and games. I have worked on many projects in my past. Thanks for visiting my github profile. Have a great day ahead!~
   
   <h2 align="center">✨ About Me ✨</h2>
@@ -37,5 +37,5 @@
       </p>
   </details>
   
-  <!-- Last updated on Sun Feb 25 2024 01:42:54 GMT+0100 (Central European Standard Time) ;-;-->
-  <i>Last updated on 25th February 2024 using magic</i> ✨ 
+  <!-- Last updated on Mon Mar 10 2025 15:21:58 GMT+0100 (Central European Standard Time) ;-;-->
+  <i>Last updated on 10th March 2025 using magic</i> ✨ 
