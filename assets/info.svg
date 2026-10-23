@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="222" viewBox="0 0 800 222" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+  <g transform="translate(0 0)">
+    <rect width="500" height="222" rx="12" fill="#1a1b27"/>
+    <path d="M0 12a12 12 0 0 1 12-12h476a12 12 0 0 1 12 12v24H0z" fill="#24283b"/>
+    <circle cx="24" cy="18" r="6" fill="#f7768e"/><circle cx="46" cy="18" r="6" fill="#e0af68"/><circle cx="68" cy="18" r="6" fill="#9ece6a"/>
+    <text x="250" y="23" text-anchor="middle" font-size="13" fill="#565f89">pepe-tf@earth: ~ whoami</text>
+    <text x="24" y="68"><tspan fill="#7aa2f7">name      </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">Pepe-tf aka Bill_Hub</tspan></text>
+    <text x="24" y="94"><tspan fill="#7aa2f7">role      </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">web apps + games dev</tspan></text>
+    <text x="24" y="120"><tspan fill="#7aa2f7">lang      </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">JavaScript / TypeScript</tspan></text>
+    <text x="24" y="146"><tspan fill="#7aa2f7">region    </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">SW, TH, US, JP</tspan></text>
+    <text x="24" y="172"><tspan fill="#7aa2f7">tools     </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">NotePad, NotePad++</tspan></text>
+    <text x="24" y="198"><tspan fill="#7aa2f7">status    </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">coding is killing me</tspan></text>
+  </g>
+  <g transform="translate(516 0)">
+    <rect width="284" height="222" rx="12" fill="#1a1b27"/>
+    <path d="M0 12a12 12 0 0 1 12-12h260a12 12 0 0 1 12 12v24H0z" fill="#24283b"/>
+    <circle cx="24" cy="18" r="6" fill="#f7768e"/><circle cx="46" cy="18" r="6" fill="#e0af68"/><circle cx="68" cy="18" r="6" fill="#9ece6a"/>
+    <text x="142" y="23" text-anchor="middle" font-size="13" fill="#565f89">live.json</text>
+    <text x="24" y="68"><tspan fill="#7aa2f7">repos     </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">17</tspan></text>
+    <text x="24" y="94"><tspan fill="#7aa2f7">followers </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">2</tspan></text>
+    <text x="24" y="120"><tspan fill="#7aa2f7">starred   </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">9</tspan></text>
+    <text x="24" y="146"><tspan fill="#7aa2f7">stars     </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">9</tspan></text>
+    <text x="24" y="172"><tspan fill="#7aa2f7">since     </tspan><tspan fill="#565f89">: </tspan><tspan fill="#c0caf5">2024</tspan></text>
+  </g>
+</svg>
