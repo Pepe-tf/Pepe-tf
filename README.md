@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/158031629" width="140" style="border-radius:50%" />
+<img src="assets/avatar.svg" alt="Pepe-tf" width="140" />
 
 <img src="assets/banner.svg" alt="Pepe-tf" width="100%" />
 
@@ -112,7 +112,7 @@ The plugin nobody sees but everything depends on. The backbone of our SMP server
 
 <div align="center">
 
-<!-- Last updated on Fri Oct 23 2026 09:06:42 GMT+0200 (Central European Summer Time) ;-;-->
+<!-- Last updated on Fri Oct 23 2026 09:09:45 GMT+0200 (Central European Summer Time) ;-;-->
 <sub>last updated 23rd October 2026 using magic</sub>
 
 </div>

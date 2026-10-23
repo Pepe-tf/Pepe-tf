@@ -8,7 +8,9 @@ const THEME = "tokyonight";
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 const getJSON = async (url) => {
-    const res = await fetch(url);
+    // A token lifts the 60 req/hour anonymous limit, which shared CI runners burn through fast.
+    const headers = process.env.GITHUB_TOKEN ? { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {};
+    const res = await fetch(url, { headers });
     if (!res.ok) throw new Error(`${url} -> ${res.status}`);
     return res.json();
 };
@@ -94,6 +96,20 @@ const main = async () => {
     const langSvg = svg(800, 68 + langs.length * 26 + 8, win(0, 800, 68 + langs.length * 26 + 8, "~/repos: languages", bars));
 
     fs.mkdirSync(path.join(__dirname, "..", "assets"), { recursive: true });
+
+    // GitHub strips inline CSS, so the circle is an SVG clip with the photo embedded (SVGs in <img> can't load external images).
+    const avatarRes = await fetch(`${user.avatar_url}${user.avatar_url.includes("?") ? "&" : "?"}s=280`);
+    if (!avatarRes.ok) throw new Error(`avatar -> ${avatarRes.status}`);
+    const avatarB64 = (await avatarRes.buffer()).toString("base64");
+    writeAsset(
+        "avatar.svg",
+        `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140" viewBox="0 0 140 140">
+  <defs><clipPath id="c"><circle cx="70" cy="70" r="66"/></clipPath></defs>
+  <image href="data:image/png;base64,${avatarB64}" xlink:href="data:image/png;base64,${avatarB64}" width="140" height="140" clip-path="url(#c)" preserveAspectRatio="xMidYMid slice"/>
+  <circle cx="70" cy="70" r="66" fill="none" stroke="#7aa2f7" stroke-width="3"/>
+</svg>
+`,
+    );
     writeAsset("info.svg", info);
     writeAsset("langs.svg", langSvg);
 
@@ -153,7 +169,7 @@ ${pl.links.map(([label, url, logo, color]) => `<a href="${url}">${badge(label, c
 
     const text = `<div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/158031629" width="140" style="border-radius:50%" />
+<img src="assets/avatar.svg" alt="Pepe-tf" width="140" />
 
 <img src="assets/banner.svg" alt="Pepe-tf" width="100%" />
 
